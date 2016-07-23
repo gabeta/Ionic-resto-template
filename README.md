@@ -1,1 +1,1 @@
-"# Ionic-resto-template" 
+# Ionic-resto-template 
