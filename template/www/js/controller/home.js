@@ -5,8 +5,4 @@ app.controller('homeCtrl',function($scope){
 
   $scope.slideMenu = true;
 
-  /*$scope.login = function(){
-   $state.go();
-   }*/
-
 })
