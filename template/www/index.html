@@ -19,9 +19,19 @@
     <script src="js/app.js"></script>
   </head>
   <body ng-app="starter">
-    <ion-side-menus>
 
-    >
+  <script id="home" type="text/ng-template">
+    <!-- The title of the ion-view will be shown on the navbar -->
+    <ion-view view-title="Home">
+      <ion-content ng-controller="HomeCtrl">
+        <!-- The content of the page -->
+        <a href="#/music">Go to music page!</a>
+      </ion-content>
+    </ion-view>
+  </script>
+
+
+  <ion-side-menus>
       <ion-side-menu-content>
         <ion-nav-bar class="bar-assertive">
           <ion-nav-back-button></ion-nav-back-button>

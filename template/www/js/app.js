@@ -25,7 +25,7 @@ var app = angular.module('starter', ['ionic'])
 
   .config(function($stateProvider,$urlRouterProvider){
 
-    $stateProvider.state('login', {
+    /*$stateProvider.state('login', {
       url:'/login',
       templateUrl:'templates/login.html',
       controller: 'loginCtrl'
@@ -34,7 +34,7 @@ var app = angular.module('starter', ['ionic'])
     $stateProvider.state('newcompte', {
       url:'/newcompte',
       //templateUrl:'templates/newcompte.html'
-    })
+    })*/
 
     $stateProvider.state('home', {
       url:'/home',
@@ -47,6 +47,6 @@ var app = angular.module('starter', ['ionic'])
       //templateUrl:'templates/panier.html'
     })
 
-    $urlRouterProvider.otherwise('/login');
+    $urlRouterProvider.otherwise('/home');
 
   })
