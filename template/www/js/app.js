@@ -26,7 +26,7 @@ angular.module('starter', ['ionic'])
   .config(function($stateProvider,$urlRouterProvider){
 
     $stateProvider.state('login', {
-      url:'/',
+      url:'/login',
       templateUrl:'templates/login.html'
     })
 
@@ -40,13 +40,11 @@ angular.module('starter', ['ionic'])
       templateUrl:'templates/home.html'
     })
 
-
     $stateProvider.state('panier', {
       url:'/panier',
       templateUrl:'templates/panier.html'
-
     })
 
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/login');
 
   })
