@@ -27,22 +27,24 @@ var app = angular.module('starter', ['ionic'])
 
     $stateProvider.state('login', {
       url:'/login',
-      templateUrl:'templates/login.html'
+      templateUrl:'templates/login.html',
+      controller: 'loginCtrl'
     })
 
     $stateProvider.state('newcompte', {
       url:'/newcompte',
-      templateUrl:'templates/newcompte.html'
+      //templateUrl:'templates/newcompte.html'
     })
 
     $stateProvider.state('home', {
       url:'/home',
-      templateUrl:'templates/home.html'
+      templateUrl:'templates/home.html',
+      controller : 'homeCtrl'
     })
 
     $stateProvider.state('panier', {
       url:'/panier',
-      templateUrl:'templates/panier.html'
+      //templateUrl:'templates/panier.html'
     })
 
     $urlRouterProvider.otherwise('/login');

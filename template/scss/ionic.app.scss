@@ -24,7 +24,10 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .resto-background{
   background: $assertive;
 }
-
+.slide-data-img{
+  height: 200px;
+  width: 100%;
+}
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 

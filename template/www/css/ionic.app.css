@@ -18,6 +18,10 @@ $dark:                            #444 !default;
 .resto-background {
   background: #ef473a; }
 
+.slide-data-img {
+  height: 200px;
+  width: 100%; }
+
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
