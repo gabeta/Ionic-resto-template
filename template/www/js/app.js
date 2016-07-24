@@ -22,3 +22,31 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+  .config(function($stateProvider,$urlRouterProvider){
+
+    $stateProvider.state('login', {
+      url:'/',
+      templateUrl:'templates/login.html'
+    })
+
+    $stateProvider.state('newcompte', {
+      url:'/newcompte',
+      templateUrl:'templates/newcompte.html'
+    })
+
+    $stateProvider.state('home', {
+      url:'/home',
+      templateUrl:'templates/home.html'
+    })
+
+
+    $stateProvider.state('panier', {
+      url:'/panier',
+      templateUrl:'templates/panier.html'
+
+    })
+
+    $urlRouterProvider.otherwise('/home');
+
+  })
