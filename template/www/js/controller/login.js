@@ -1,12 +1,13 @@
 /**
  * Created by Gabeta on 24/07/2016.
  */
-app.controller('loginCtrl',function($scope){
+app.controller('loginCtrl',function($scope,$state,$ionicHistory){
 
-  $scope.slideMenu = false;
+  $scope.sideMenu = false;
 
-  /*$scope.login = function(){
-    $state.go();
-  }*/
+  $scope.login = function(){
+    $state.go('home');
+    $ionicHistory.nextViewOptions({historyRoot : true});
+  }
 
 })

@@ -24,6 +24,18 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .resto-background{
   background: $assertive;
 }
+
+.resto-bar{
+  height: 40px;
+  padding-top: 2px;
+  text-align: center;
+  width: 100%;
+  background: #151515;
+  h4{
+    color: white;
+  }
+}
+
 .slide-data-img{
   height: 200px;
   width: 100%;

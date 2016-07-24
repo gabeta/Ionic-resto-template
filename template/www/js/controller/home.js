@@ -3,6 +3,6 @@
  */
 app.controller('homeCtrl',function($scope){
 
-  $scope.slideMenu = true;
+  $scope.sideMenu = true;
 
 })
