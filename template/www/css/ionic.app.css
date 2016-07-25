@@ -18,12 +18,15 @@ $dark:                            #444 !default;
 .resto-background {
   background: #ef473a; }
 
+.resto-background2 {
+  background: #ffc900; }
+
 .resto-bar {
   height: 40px;
   padding-top: 2px;
   text-align: center;
-  width: 100%;
-  background: #151515; }
+  background: #151515;
+  width: 100%; }
   .resto-bar h4 {
     color: white; }
 
