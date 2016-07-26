@@ -47,6 +47,21 @@ var app = angular.module('starter', ['ionic'])
       templateUrl:'templates/menu.html',
     })
 
+    $stateProvider.state('favorite', {
+      url:'/favorite',
+      templateUrl:'templates/favorite.html',
+    })
+
+    $stateProvider.state('cart', {
+      url:'/cart',
+      templateUrl:'templates/cart.html',
+    })
+
+    $stateProvider.state('single', {
+      url:'/menu/:id',
+      templateUrl:'templates/single.html',
+    })
+
     $stateProvider.state('panier', {
       url:'/panier',
       //templateUrl:'templates/panier.html'

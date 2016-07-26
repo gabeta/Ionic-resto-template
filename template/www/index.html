@@ -33,13 +33,12 @@
       </ion-side-menu-content>
       <ion-side-menu side="left">
         <ion-list>
-          <ion-item menu-close><i class="icon ion-home"></i>Home</ion-item>
-          <ion-item menu-close><i class="icon ion-android-restaurant"></i>Menu</ion-item>
-          <ion-item menu-close><i class="icon ion-heart"></i>My favorites<span class="badge badge-assertive">5</span></ion-item>
-          <ion-item menu-close>
+          <ion-item menu-close ui-sref="home"><i class="icon ion-home"></i>Home</ion-item>
+          <ion-item ui-sref="menu" menu-close><i class="icon ion-android-restaurant"></i>Menu</ion-item>
+          <ion-item ui-sref="favorite"  menu-close><i class="icon ion-heart"></i>My favorites<span class="badge badge-assertive">5</span></ion-item>
+          <ion-item menu-close  ui-sref="cart">
             <i class="icon ion-android-cart"></i>My cart <span class="badge badge-assertive">2</span>
           </ion-item>
-          <ion-item menu-close><i class="icon ion-log-in"></i>Logout</ion-item>
         </ion-list>
       </ion-side-menu>
     </ion-side-menus>

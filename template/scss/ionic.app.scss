@@ -17,10 +17,14 @@ $dark:                            #444 !default;
 $balanced:                        #33cd5f !default;
 $energized:                       #ffc900 !default;
 $assertive:                       #ef473a !default;
-
+$royal:                           #ff44ec !default;
+$dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+.resto-star-color{
+  color: $energized;
+}
 
 .resto-background{
   background: $assertive;
@@ -53,6 +57,58 @@ color: $assertive;
   height: 200px;
   width: 100%;
 }
+
+
+.resto-btn{
+  background: white;
+  height: 30px;
+  padding: 0 5px 0px 5px;
+  font-weight: bold;
+}
+
+
+.resto-btn-dark{
+
+  color: $dark !important;
+  border: 2px solid $dark;
+  //width: 90px;
+  border-radius: 30%;
+  &:hover{
+    color: white !important;
+    background: $dark;
+  }
+}
+
+
+.resto-btn-pink{
+
+  color: $royal !important;
+  border: 2px solid $royal;
+  //width: 90px;
+  border-radius: 30%;
+  &:hover{
+    color: white !important;
+    background: $royal;
+  }
+}
+
+.resto-btn-primary{
+
+  color: $assertive !important;
+  border: 2px solid $assertive;
+  //width: 90px;
+  border-radius: 30%;
+  &:hover{
+    color: white !important;
+    background: $assertive;
+  }
+}
+
+.float-right{
+  float: right;
+}
+
+
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 

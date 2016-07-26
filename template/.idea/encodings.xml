@@ -3,7 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/scss/ionic.app.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/controller/single.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/cart.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/favorite.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/templates/home.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/templates/menu.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/single.html" charset="UTF-8" />
   </component>
 </project>
