@@ -42,6 +42,11 @@ var app = angular.module('starter', ['ionic'])
       controller : 'homeCtrl'
     })
 
+    $stateProvider.state('menu', {
+      url:'/menu',
+      templateUrl:'templates/menu.html',
+    })
+
     $stateProvider.state('panier', {
       url:'/panier',
       //templateUrl:'templates/panier.html'
