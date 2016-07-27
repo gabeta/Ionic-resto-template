@@ -17,5 +17,4 @@ SASS is setup on this project.
 
 ## Screenshoot
 
-
-[[https://github.com/gabeta/Ionic-resto-template/blob/master/screenshoots/1.PNG]]
+![1](https://github.com/gabeta/Ionic-resto-template/blob/master/screenshoots/1.PNG)
