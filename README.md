@@ -14,4 +14,8 @@ If you finish to install node dependencies, you can run your serve:
 
 SASS is setup on this project. 
 
-[https://github.com/gabeta/Ionic-resto-template/screenshoots/1.PNG]
+
+## Screenshoot
+
+
+[[https://github.com/gabeta/Ionic-resto-template/blob/master/screenshoots/1.PNG]]
