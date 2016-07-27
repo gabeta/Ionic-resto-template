@@ -13,3 +13,6 @@ If you finish to install node dependencies, you can run your serve:
 
 
 SASS is setup on this project. 
+
+
+[logo]: https://github.com/gabeta/screenshoots/1.png
